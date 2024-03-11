@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "../assets/react.svg"
+import Vite from "../../public/vite.svg"
 import classes from "./Navbar.module.css"
 
 export default function Navbar() {
@@ -7,7 +8,7 @@ export default function Navbar() {
     <>
     <div>
         <img src={Image} alt="" />
-        <img src= alt="" />
+        <img src={Vite} alt="" />
         <ul>
             <li className={classes.list} >Home</li>
             <li className={classes.list}>Support</li>
